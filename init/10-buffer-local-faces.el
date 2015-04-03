@@ -2,14 +2,14 @@
 (defun buffer-face-mode-variable ()
 "Set font to a variable width (proportional) fonts in current buffer"
 (interactive)
-(setq buffer-face-mode-face '(:family "Covington" :height 120))
+(setq buffer-face-mode-face '(:family "Droid Serif" :height 120))
 (buffer-face-mode))
 
 ;; Use monospaced font faces in current buffer
 (defun buffer-face-mode-fixed ()
 "Sets a fixed width (monospace) font in current buffer"
 (interactive)
-(setq buffer-face-mode-face '(:family "ProggySquareTTSZ" :height 117))
+(setq buffer-face-mode-face '(:family "Hermit" :height 117))
 (buffer-face-mode))
 
 ;; Set default font faces for Info and ERC modes
