@@ -10,6 +10,11 @@
 		      (setq erc-fill-column (- (window-width w) 2)))))))))
 (add-hook 'erc-mode-hook 'buffer-face-mode-variable)
 
+(defun gnu-tls-available-p ()
+  nil)
+
+(setq tls-program '("openssl s_client -connect %h:%p -no_ssl2 -ign_eof"))
+
 (defun erc-cmd-OPALL (&rest ignore)
   (let ((line "") (count-line-names 0))
     (maphash
