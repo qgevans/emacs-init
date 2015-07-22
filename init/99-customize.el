@@ -5,6 +5,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ctags-update-command "exctags")
+ '(ctags-update-other-options
+   "-e -R --exclude='*.elc' --exclude='*.class' --exclude='.git' --exclude='.svn' --exclude='SCCS' --exclude='RCS' --exclude='CVS' --exclude='EIFGEN'")
  '(erc-nick "heddwch")
  '(erc-port 6660)
  '(erc-prompt-for-password t)
@@ -18,4 +21,4 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#ffffcc" :foreground "black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 119 :width normal :foundry "unknown" :family "Hermit")))))
+ '(default ((t (:inherit nil :stipple nil :background "gainsboro" :foreground "black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 120 :width normal :foundry "unknown" :family "Hermit")))))
