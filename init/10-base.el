@@ -53,3 +53,7 @@
 
 (tool-bar-mode -1)
 (menu-bar-mode -1)
+
+(setq ls-lisp-use-insert-directory-program nil)
+(setq ls-lisp-emulation 'UNIX)
+(require 'ls-lisp)
