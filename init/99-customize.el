@@ -15,7 +15,8 @@
  '(jabber-account-list
    (quote
     (("heddwch@lightwitch.org/emacs"
-      (:password . "V3//%oC%#&A"))))))
+     (:password . "V3//%oC%#&A")))))
+ '(package-selected-packages (quote (magit smartparens))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
