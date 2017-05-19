@@ -50,6 +50,7 @@
 
 (setq focus-follows-mouse t)
 (setq backup-directory-alist '(("." . "~/.emacs-backups")))
+(setq-default indent-tabs-mode nil)
 
 (tool-bar-mode -1)
 (menu-bar-mode -1)
