@@ -2,7 +2,7 @@
 (defun buffer-face-mode-variable ()
 "Set font to a variable width (proportional) fonts in current buffer"
 (interactive)
-(setq buffer-face-mode-face '(:family "Droid Serif" :height 120))
+(setq buffer-face-mode-face '(:family "Roboto" :height 120))
 (buffer-face-mode))
 
 ;; Use monospaced font faces in current buffer
